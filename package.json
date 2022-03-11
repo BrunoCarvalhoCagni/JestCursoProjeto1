@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest", 
-    "test:watch": "jest --watchAll" 
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:cover": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^27.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "jest": "^27.5.1"
   }
 }
